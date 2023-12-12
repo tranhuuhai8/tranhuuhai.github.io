@@ -30,6 +30,7 @@ header {
     margin-bottom: 5px; 
     } 
 .profile-info p { 
+    color:#f4f4f4;
     font-size: 16px; 
     } 
 .main-menu ul { 
@@ -80,6 +81,7 @@ footer {
     text-align: center; 
 } 
 footer p { 
+    color:#fff;
     font-size: 14px; 
 }
 
@@ -166,4 +168,26 @@ footer {
 } 
 footer p { 
     font-size: 14px; 
+}
+
+/* Print styles */
+@media print {
+    body {
+        background-color: #fff; /* Chọn màu nền phù hợp cho bản in */
+        color: #000; /* Chọn màu chữ phù hợp cho bản in */
+    }
+
+    header {
+        background-color: #fff; /* Chọn màu nền phù hợp cho phần header trong bản in */
+        color: #000; /* Chọn màu chữ phù hợp cho phần header trong bản in */
+    }
+
+    .main-menu a {
+        color: #000; /* Chọn màu chữ phù hợp cho menu trong bản in */
+    }
+
+    footer {
+        background-color: #fff; /* Chọn màu nền phù hợp cho phần footer trong bản in */
+        color: #000; /* Chọn màu chữ phù hợp cho phần footer trong bản in */
+    }
 }
