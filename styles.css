@@ -96,6 +96,42 @@ footer p {
     font-size: 14px;
 }
 
+/* Hiệu ứng nổi khi di chuột vào */
+.block {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.block h2 {
+    color: #333;
+}
+
+.block p {
+    color: #555;
+}
+
+.block ul {
+    list-style: none;
+    padding: 0;
+}
+
+.block li {
+    margin-bottom: 10px;
+}
+
+.block a {
+    color: #3498db;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.block:hover {
+    transform: scale(1.1);
+}
+
 /* Các quy tắc cho phương tiện in */
 @media print {
     body {
