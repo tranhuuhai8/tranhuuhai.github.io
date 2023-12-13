@@ -1,16 +1,16 @@
-/* Reset CSS styles */ 
+
 * { 
     margin: 0; 
     padding: 0; 
     box-sizing: border-box; 
 } 
-    /* Body styles */ 
+
 body { 
     font-family: 'Arial', sans-serif; background-color: #f4f4f4; 
     color: #333; 
     line-height: 1.6; 
 } 
-    /* Header styles */ 
+
 header { 
     background-color: #333; 
     color: #fff; 
@@ -52,7 +52,7 @@ header {
 .main-menu a:hover { 
     color: #ffd700; 
 } 
-    /* Main content styles */ 
+
 main { 
     padding: 40px 0; 
 } 
@@ -73,7 +73,7 @@ p {
     font-size: 18px; 
     color: #555; 
 } 
-    /* Footer styles */ 
+
 footer { 
     background-color: #333; 
     color: #fff; 
@@ -85,19 +85,19 @@ footer p {
     font-size: 14px; 
 }
 
-/* Reset CSS styles */ 
+
 * { 
     margin: 0; 
     padding: 0; 
     box-sizing: border-box; 
 } 
-    /* Body styles */ 
+
 body { 
     font-family: 'Arial', sans-serif; background-color: #f4f4f4; 
     color: #333; 
     line-height: 1.6; 
 } 
-    /* Header styles */ 
+
 header { 
     background-color: #333; 
     color: #fff; 
@@ -138,7 +138,7 @@ header {
 .main-menu a:hover { 
     color: #ffd700; 
 } 
-    /* Main content styles */ 
+
 main { 
     padding: 40px 0; 
 } 
@@ -159,7 +159,6 @@ p {
     font-size: 18px; 
     color: #555; 
 } 
-    /* Footer styles */ 
 footer { 
     background-color: #333; 
     color: #fff; 
@@ -170,24 +169,64 @@ footer p {
     font-size: 14px; 
 }
 
-/* Print styles */
 @media print {
     body {
-        background-color: #fff; /* Chọn màu nền phù hợp cho bản in */
-        color: #000; /* Chọn màu chữ phù hợp cho bản in */
+        background-color: #fff; 
+        color: #000; 
     }
 
     header {
-        background-color: #fff; /* Chọn màu nền phù hợp cho phần header trong bản in */
-        color: #000; /* Chọn màu chữ phù hợp cho phần header trong bản in */
+        background-color: #fff;
+        color: #000; 
     }
 
     .main-menu a {
-        color: #000; /* Chọn màu chữ phù hợp cho menu trong bản in */
+        color: #000; 
     }
 
     footer {
-        background-color: #fff; /* Chọn màu nền phù hợp cho phần footer trong bản in */
-        color: #000; /* Chọn màu chữ phù hợp cho phần footer trong bản in */
+        background-color: #fff;
+        color: #000; 
     }
+}
+
+/* Thêm vào mã CSS hiện tại */
+
+.block {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.block h2 {
+    color: #333;
+}
+
+.block p {
+    color: #555;
+}
+
+.block ul {
+    list-style: none;
+    padding: 0;
+}
+
+.block li {
+    margin-bottom: 10px;
+}
+
+.block a {
+    color: #3498db;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+
+.block {
+    transition: transform 0.3s ease; 
+}
+
+.block:hover {
+    transform: scale(1.1); 
 }
