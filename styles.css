@@ -1,232 +1,156 @@
-
-* { 
-    margin: 0; 
-    padding: 0; 
-    box-sizing: border-box; 
-} 
-
-body { 
-    font-family: 'Arial', sans-serif; background-color: #f4f4f4; 
-    color: #333; 
-    line-height: 1.6; 
-} 
-
-header { 
-    background-color: #333; 
-    color: #fff; 
-    padding: 20px 0; 
-    text-align: center; 
-} 
-.profile-image img { 
-    border-radius: 50%; 
-    max-width: 150px; 
-} 
-.profile-info { 
-    margin-top: 10px; 
-    } 
-.profile-info h2 { 
-    color: #fff;
-    font-size: 24px; 
-    margin-bottom: 5px; 
-    } 
-.profile-info p { 
-    color:#f4f4f4;
-    font-size: 16px; 
-    } 
-.main-menu ul { 
-    list-style: none;
-    display: flex; 
-    justify-content: center; 
-    margin-top: 20px; 
-} 
-.main-menu li { 
-    margin-right: 20px; 
-} 
-.main-menu a { 
-    text-decoration: none; 
-    color: #fff; 
-    font-weight: bold; 
-    font-size: 16px; 
-    transition: color 0.3s ease; 
-} 
-.main-menu a:hover { 
-    color: #ffd700; 
-} 
-
-main { 
-    padding: 40px 0; 
-} 
-.container { 
-    max-width: 960px; 
-    margin: 0 auto; 
-    padding: 0 20px; 
-} 
-section { 
-    margin-bottom: 40px; 
-} 
-h2 { 
-    font-size: 36px; 
-    margin-bottom: 20px; 
-    color: #333; 
-} 
-p {
-    font-size: 18px; 
-    color: #555; 
-} 
-
-footer { 
-    background-color: #333; 
-    color: #fff; 
-    padding: 20px 0; 
-    text-align: center; 
-} 
-footer p { 
-    color:#fff;
-    font-size: 14px; 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-
-* { 
-    margin: 0; 
-    padding: 0; 
-    box-sizing: border-box; 
-} 
-
-body { 
-    font-family: 'Arial', sans-serif; background-color: #f4f4f4; 
-    color: #333; 
-    line-height: 1.6; 
-} 
-
-header { 
-    background-color: #333; 
-    color: #fff; 
-    padding: 20px 0; 
-    text-align: center; 
-} 
-.profile-image img { 
-    border-radius: 50%; 
-    max-width: 150px; 
-} 
-.profile-info { 
-    margin-top: 10px; 
-    } 
-.profile-info h2 { 
-    color: #fff;
-    font-size: 24px; 
-    margin-bottom: 5px; 
-    } 
-.profile-info p { 
-    font-size: 16px; 
-    } 
-.main-menu ul { 
-    list-style: none;
-    display: flex; 
-    justify-content: center; 
-    margin-top: 20px; 
-} 
-.main-menu li { 
-    margin-right: 20px; 
-} 
-.main-menu a { 
-    text-decoration: none; 
-    color: #fff; 
-    font-weight: bold; 
-    font-size: 16px; 
-    transition: color 0.3s ease; 
-} 
-.main-menu a:hover { 
-    color: #ffd700; 
-} 
-
-main { 
-    padding: 40px 0; 
-} 
-.container { 
-    max-width: 960px; 
-    margin: 0 auto; 
-    padding: 0 20px; 
-} 
-section { 
-    margin-bottom: 40px; 
-} 
-h2 { 
-    font-size: 36px; 
-    margin-bottom: 20px; 
-    color: #333; 
-} 
-p {
-    font-size: 18px; 
-    color: #555; 
-} 
-footer { 
-    background-color: #333; 
-    color: #fff; 
-    padding: 20px 0; 
-    text-align: center; 
-} 
-footer p { 
-    font-size: 14px; 
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
 }
 
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.profile-image img {
+    border-radius: 50%;
+    max-width: 150px;
+}
+
+.profile-info {
+    margin-top: 10px;
+}
+
+.profile-info h2 {
+    color: #fff;
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.profile-info p {
+    font-size: 16px;
+}
+
+.main-menu ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.main-menu li {
+    margin-right: 20px;
+}
+
+.main-menu a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+.main-menu a:hover {
+    color: #ffd700;
+}
+
+main {
+    padding: 40px 0;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+p {
+    font-size: 18px;
+    color: #555;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    font-size: 14px;
+}
+
+/* Các quy tắc cho phương tiện in */
 @media print {
     body {
-        background-color: #fff; 
-        color: #000; 
+        background-color: #fff;
+        color: #000;
     }
 
     header {
         background-color: #fff;
-        color: #000; 
+        color: #000;
     }
 
     .main-menu a {
-        color: #000; 
+        color: #000;
     }
 
     footer {
         background-color: #fff;
-        color: #000; 
+        color: #000;
     }
-}
 
-/* Thêm vào mã CSS hiện tại */
+    .block {
+        background-color: #fff;
+        padding: 15px;
+        border-radius: 0;
+        box-shadow: none;
+    }
 
-.block {
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
+    .block h2 {
+        color: #000;
+    }
 
-.block h2 {
-    color: #333;
-}
+    .block p {
+        color: #000;
+    }
 
-.block p {
-    color: #555;
-}
+    .block ul {
+        list-style: none;
+        padding: 0;
+    }
 
-.block ul {
-    list-style: none;
-    padding: 0;
-}
+    .block li {
+        margin-bottom: 10px;
+    }
 
-.block li {
-    margin-bottom: 10px;
-}
+    .block a {
+        color: #000;
+        text-decoration: none;
+    }
 
-.block a {
-    color: #3498db;
-    text-decoration: none;
-    transition: color 0.3s ease;
-}
-
-
-.block {
-    transition: transform 0.3s ease; 
-}
-
-.block:hover {
-    transform: scale(1.1); 
+    /* Ẩn các phần không muốn in */
+    .main-menu,
+    .main-menu ul,
+    .main-menu li,
+    .main-menu a:hover {
+        display: none !important;
+    }
 }
